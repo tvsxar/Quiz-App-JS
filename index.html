@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+    <title>Quizz App JS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="start-page">
+            <p class="score-msg none">your score is 3 out of 3</p>
+            <button class="start-btn">START</button>
+        </div>
+
+        <div class="app none">
+            <div class="header-app">
+                <p class="counter">1 of 3 Questions</p>
+
+                <div class="timer">
+                    <ion-icon name="timer" class="icon-timer"></ion-icon>
+
+                    <p class="time">13s</p>
+                </div>
+            </div>
+
+            <div class="main-app">
+                <p class="question">How are u?</p>
+
+                <div class="answers">
+                    <button class="answer">first option</button>
+                    <button class="answer">second option</button>
+                    <button class="answer">third option</button>
+                    <button class="answer">fourth option</button>
+                </div>
+            </div>
+
+            <div class="footer-app">
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
